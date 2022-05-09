@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mans pirmais HTML dokuments</title>
+    <link href="style.css" rel="stylesheet">
+
+</head>
+<body>
+ 
+<h1>Šis ir mans virsraksts</h1>
+
+<!--P ir rindkopa. Pirms un pēc tās būs jaunas rindas vienmēr.-->
+<p>Ārā spīd saule</p>
+
+
+<h3>Apakšvirsraksts</h3>
+<p id="unikalsid">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut libero id neque bibendum mollis. Sed elementum non tellus vitae suscipit. <strong> Posuere, tellus in bibendum consectetur, tellus mi laoreet est, non bibendum nunc magna non enim.</strong> Cras fermentum nisi in pharetra dapibus. Vivamus sit amet convallis nibh, sit amet egestas felis. Donec diam elit, vestibulum at nulla ut, sodales malesuada urna. Phasellus nibh orci, scelerisque in enim sed, luctus pharetra lacus. Suspendisse eu magna eget justo luctus rhoncus et non mi. Curabitur et egestas ex. Fusce aliquam, massa eget feugiat accumsan, orci mauris vehicula quam, in facilisis nisl nisi.</p>
+
+<br>
+
+<h3 class="zalsteksts">Apakšvirsraksts otrajai rindkopai</h3>
+<p class="zalsteksts">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut libero id neque bibendum mollis. Sed elementum non tellus vitae suscipit. Duis posuere, tellus in bibendum consectetur, tellus mi laoreet est, non bibendum nunc magna non enim. Cras fermentum nisi in pharetra dapibus. Vivamus sit amet convallis nibh, sit amet egestas felis. Donec diam elit, vestibulum at nulla ut, <a href= "https://en.wiktionary.org/wiki/sodales" target="_blank"> sodales </a> malesuada urna. Phasellus nibh orci, scelerisque in enim sed, luctus pharetra lacus. Suspendisse eu magna eget justo luctus rhoncus et non mi. Curabitur et egestas ex. Fusce aliquam, massa eget feugiat accumsan, orci mauris vehicula quam, in facilisis nisl nisi.</p>
+
+<a href="https://www.lipsum.com/feed/html" target="_blank">Saite </a> uz lipsum
+<br>
+<h4>Bilde no interneta</h4>
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/8f/Bachalpsee_reflection.jpg" width="30%" alt="Bilde ar ezeru">
+
+<h4>Bilde no failu sistēmas</h4>
+<img src="images/Galunggung.jpg" width="25%">
+
+<div id="specialramitis">
+<div class="ramitis left">
+<h4>Pirkuma saraksts</h4>
+<ul>
+    <li><a href="https://www.barbora.lv/produkti/kartupeli-45-kg" target="_blank"> Kartupeļi</a></li>
+    <li>Burkāni</li>
+    <li>Ziepes</li>
+    <li>Maize</li>
+</ul>
+</div>
+<br>
+<br>
+<div class="ramitis right">
+<h5>Omletes recepte</h5>
+<ol>
+    <li>iesist olas bļodā</li>
+    <li>pievienot pienu</li>
+    <li>visu sakult</li>
+    <li>uzkarsēt pannu</li>
+    <li>ieliet maisījumu pannā</li>
+    <li>cept 10 minūtes</li>
+    <li>pasniegt karstu</li>
+</ol>
+</div>
+</div>
+
+<input id="vecums">
+<br>
+<button id="poga">SPIED MANI!</button>
+<p>Lietotaja vecums ir: <strong id="lietotajavecums"></strong> </p>
+<script>
+document.getElementById("poga").onclick = function() {
+    var vecums = document.getElementById("vecums").value;
+    alert("Poga tika nospiesta");
+    document.getElementById("lietotajavecums").innerText = vecums;
+};
+</script>
+
+
+</html>

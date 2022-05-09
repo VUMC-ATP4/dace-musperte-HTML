@@ -1,0 +1,47 @@
+p {
+    color: blue;
+   }
+
+.zalsteksts {
+color: green;
+border-style: dashed;
+}
+
+#unikalsid {
+    color: red;
+    font-size: large;
+}
+
+div.ramitis {
+    border-style: double;
+    border-color: chocolate;
+}
+
+#specialramitis{
+    border-style:dashed;
+    border-color:cornflowerblue;
+    margin:20px;
+    padding:20px;
+    display:grid;
+    grid-template-columns:20% 80%;
+}
+
+ul li {
+    font-style: italic;
+   }
+
+ol li {
+       text-decoration: underline;
+}
+
+body{
+    background-color: burlywood;
+}
+
+.left{
+    background-color: blue
+}
+
+.right{
+background-color: chartreuse;
+}
