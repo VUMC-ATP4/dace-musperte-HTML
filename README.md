@@ -1,2 +1,3 @@
 # dace-musperte-HTML
- sis  būs mans mājas darbs HTML CSS JavaScript
+ Šis  ir mans mājas darbs HTML/CSS/JavaScript
+Mans CV
